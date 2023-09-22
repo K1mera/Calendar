@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.inputs {
+    @apply mt-1 block w-full text-white bg-zinc-900 rounded-md shadow-sm shadow-zinc-700 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50;
+}
